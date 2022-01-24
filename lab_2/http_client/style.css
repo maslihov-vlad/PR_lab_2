@@ -1,0 +1,70 @@
+#main{
+	position: absolute;
+	left: 33%;
+	top: 17%;
+	width: 30%;
+	background: #ADB2E6 ;
+	opacity: 0.83;
+	border-radius: 2%;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+*{
+	overflow: hidden;
+}
+
+p{
+	font-size: 20px
+}
+
+input{
+	text-overflow: hidden;
+}
+
+#rev{
+	position: absolute;
+	left: 33%;
+	top: 44%;
+	margin: 0px 70px 0px;
+}
+
+#inputBox{
+	margin: 10% 5%;
+	width: 80%;
+	height: 20%;
+}
+
+#outputBox{
+	margin: 13% 5%;
+	width: 80%;
+	height: 20%;
+}
+
+#box{
+	font-size: 20px;
+	margin: 5% 10% 10%;
+	border-radius: 3px;
+	border: 3px solid #2C3045;
+}
+
+#input,#output{
+	padding: 2%;
+	border: 1px solid #949FA8; 
+	border-radius: 4%;
+	background: #B7DCE8;
+	outline: 0;
+	font-size: 30px;
+}
+
+body{
+	height: 100%;
+	width:100%;
+	background: url(f0.png);
+}
+
+#statusBox{
+	position: absolute;
+	font-size: 30px;
+	top: 5%;
+	left: 42%;
+}

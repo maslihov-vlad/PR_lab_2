@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+  		<meta charset="utf-8">
+		<title>lol</title>
+		<link href="./style.css" rel="stylesheet">
+	</head>
+  	<body id="back">
+  		<div id="main">
+  			<!-- <input type="image" id="rev" src="conv.png" width="50px" height="50px" onclick="revers()"> -->
+  			<div id="box">
+  				<div >
+  					<p id="status"> PROTOCOL: RAW IP
+					<button onclick="set_proto('RAW IP')" type="button" id="RAW IP">RAW IP</button>
+					<button onclick="set_proto('TCP')" type="button" id="TCP">TCP</button>
+  				</div>
+
+  				<div id="inputBox">
+  					<p> Client:
+  					<input type="text" id="input" placeholder="Please write something.." onkeydown="if(event.keyCode==13){if (pass){sendMess();this.placeholder='waiting for your next massage.. ('+t;this.value='';} else {alert('error of conn')}} else {document.getElementById('output').value=''; document.getElementById('status').innerHTML= 'waiting ('+t;}">  					
+  				</div>
+  				<div id="outputBox" >
+  					<p> Server:
+					<b id="output">server not connect</b>
+
+  					<!-- <input type="output" onfocus="document.getElementById('input').focus();" id="output" placeholder="I'm waiting for your messag" >  -->
+  				</div>
+
+  				<div id="server_out" >
+  					<p> Server raw data:
+					<b id="data">no data</b>
+  				</div>
+
+  			</div>
+  		</div>
+	</body>
+	<script type="module" src="./module.js"></script>
+</html>
